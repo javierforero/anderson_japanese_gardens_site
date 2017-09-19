@@ -1,0 +1,98 @@
+<section id="koi-section">
+  <div id="welcome-japanese">
+    <h2>WELCOME TO THE</h2>
+    <h1>ANDERSON JAPANESE GARDENS</h1>
+    <a class="button" id="view-gallery-button">VIEW GALLERY</a>
+  </div>
+  <img src="../assets/down_arrow.png"/>
+</section>
+<section id="garden-hours-section" class="container">
+  <div class="row">
+    <div class="col">
+      <h1 id="garden-title">Garden Hours</h1>
+    </div>
+  </div>
+  <div class="row hours">
+    <div id="open-daily" class="col">
+      <h1>Open Daily <br /> May 1st - October 31</h1>
+    </div>
+    <div id="hours" class="col">
+      <div id="monday-friday">
+        <h3>Monday - Friday:</h3>
+        <p>9:00 AM - 6:00 PM</p>
+      </div>
+      <div id="saturday-sunday">
+        <h3>Saturday - Sunday:</h3>
+        <p>9:00 AM - 5:00 PM</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="admission-rates">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1 id="admission-title" class="section-title">DAILY ADMISSION RATES</h1>
+      </div>
+    </div>
+    <div class="row rates">
+      <div id="adult-rate" class="col">
+        <h3>ADULTS:</h3>
+        <p>$9.50</p>
+      </div>
+      <div id="senior-rate" class="col">
+        <h3>SENIORS (62+):</h3>
+        <p>$8.50</p>
+      </div>
+      <div id="student-rate" class="col">
+        <h3>STUDENTS:</h3>
+        <p>$7.50</p>
+      </div>
+      <div id="children-rate" class="col">
+        <h3>CHILDREN UNDER 5:</h3>
+        <p>Free</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="events-section">
+  <div class="container">
+      <img id="left-arrow" src="../assets/left-arrow.png" ng-click="landing.prevEvent()"/>
+      <div class="col">
+        <h1 id="events-title" class="section-title">EVENTS THIS WEEK</h1>
+        <div id="events-body">
+          <h4 id="event-date-time">{{landing.getCurrentEvent().dayofweek}}, {{landing.getCurrentEvent().month}} {{landing.getCurrentEvent().day_value}}, {{landing.getCurrentEvent().year}} • {{landing.getCurrentEvent().duration}}</h4>
+          <h1 id="event-name">{{landing.getCurrentEvent().title}}</h1>
+          <p class="event-description">{{landing.getCurrentEvent().description1}}</p>
+          <p class="event-description">{{landing.getCurrentEvent().description2}}</p>
+          <a class="button" id="view-calendar-button">VIEW FULL CALENDAR</a>
+        </div>
+      </div>
+      <img id="right-arrow" src="../assets/right-arrow.png" ng-click="landing.nextEvent()"/>
+    </div>
+  </div>
+</section>
+<footer id="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1>CONTACT US</h1>
+        <div class="footer-group">
+          <p>318 Spring Creek Rd<br />Rockford, Illinois, 61107</p>
+          <p>1.815.229.9390</p>
+        </div>
+        <p id="footer-email">hello@andersongardens.org</p>
+      </div>
+      <div class="col" id="footer-member">
+        <h1>BECOME A MEMBER</h1>
+        <p class="footer-group" >Sign up for discounted rates,<br /> exclusive access to events, and more! </p>
+        <a class="button" id="footer-sign-up">SIGN UP</a>
+      </div>
+      <div class="col">
+        <h1>DONATE</h1>
+        <p class="footer-group" >We depend on donations to fund<br />our programs and services. </p>
+        <a class="button" id="footer-sign-up">DONATE</a>
+      </div>
+    </div>
+  </div>
+</footer>

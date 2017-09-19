@@ -1,0 +1,133 @@
+/*larger screens*/
+@media only screen and (min-width: 1400px) {
+ nav li {
+   padding: 0 90px;
+ }
+}
+
+
+/*mac screens*/
+
+
+@media only screen and (max-width: 1200px) {
+  .row {
+    display: block !important;
+    margin-right: 0 !important;
+     margin-left: 0 !important;
+  }
+
+  footer#page-footer {
+    height: auto;
+  }
+
+  #footer-member {
+
+    border: none;
+  }
+
+  img#left-arrow {
+    left: 2rem;
+  }
+
+  img#right-arrow {
+    right: 2rem;
+  }
+
+  div#events-body h1 {
+    font-size: 2rem;
+  }
+
+  div#events-body p {
+    font-size: 1.2rem;
+  }
+  div#hours {
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 1030px) {
+  div#welcome-japanese {
+    height: 20rem;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  header#header {
+    display: block;
+  }
+  li.nav-text {
+    display: none;
+  }
+  nav li {
+    float: none;
+  }
+  li#logo {
+    position: absolute;
+    top: .4rem;
+    left: 2rem;
+    padding: 0;
+  }
+
+  ul.nav-ul {
+    text-align: center;
+    margin-top: 4rem;
+  }
+
+  ul.nav-ul li:last-child {
+    padding-bottom: 3rem;
+  }
+
+  .nav-text {
+    margin-top: 0;
+    padding: 2rem;
+    font-size: 1rem;
+  }
+  #nav-icon1 {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  section#events-section h4, section#events-section h1#event-name, section#events-section p {
+    font-size: 1rem;
+  }
+
+  img#right-arrow, img#left-arrow {
+    top:80%;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  img#right-arrow, img#left-arrow {
+    top:87%;
+  }
+  div#footer-member h1 {
+    line-height: 2rem;
+  }
+}
+  @media only screen and (max-width: 400px) {
+    div#welcome-japanese h1 {
+      font-size: 2.4rem;
+    }
+  }
+
+  @media only screen and (max-width: 350px) {
+    .section-title {
+      font-size: 2rem;
+    }
+
+    h1#event-name {
+      line-height: 1rem;
+      padding-top: 1rem;
+    }
+
+    a#view-calendar-button.button {
+      width: 15rem;
+      font-size: 1rem;
+      padding: 20px;
+    }
+
+    img#right-arrow, img#left-arrow {
+      top:91%;
+    }
+  }
