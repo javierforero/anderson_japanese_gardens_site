@@ -1,16 +1,16 @@
 @font-face {
 
   font-family: 'Oil-can';
-  src: url('/assets/webfonts/OilCan.ttf'); /* IE9 Compat Modes */
-  src: url('/assets/webfonts/OilCan.ttf') format('truetype');
+  src: url('../assets/webfonts/OilCan.ttf'); /* IE9 Compat Modes */
+  src: url('../assets/webfonts/OilCan.ttf') format('truetype');
 
 }
 
 @font-face {
 
   font-family: 'intro';
-  src: url('/assets/webfonts/intro.otf'); /* IE9 Compat Modes */
-  src: url('/assets/webfonts/intro.otf') format('opentype');
+  src: url('../assets/webfonts/Intro.otf'); /* IE9 Compat Modes */
+  src: url('../assets/webfonts/Intro.otf') format('opentype');
 
 }
 
