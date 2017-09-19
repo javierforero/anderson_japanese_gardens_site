@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <title>Japanese Gardens</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styles/reset.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <link rel="stylesheet" href="../styles/media-queries.css">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/media-queries.css">
 </head>
 <body>
   <header ng-controller="NavCtrl as nav" id="header">
-    <nav class="my-table" (window:resize)="nav.onResize($event)">
+    <nav class="my-table">
       <ul class="nav-ul clearfix">
-        <li class="nav-text">PLAN A VISIT</li>
-        <li class="nav-text">EVENTS</li>
+        <li class="nav-text"><a href="#">PLAN A VISIT</a></li>
+        <li class="nav-text"><a href="#">EVENTS</a></li>
         <li id="logo"><a href="#"><img src="assets/logo.png"/></a></li>
-        <li class="nav-text">MEMBERSHIP</li>
-        <li class="nav-text">ABOUT</li>
+        <li class="nav-text"><a href="#">MEMBERSHIP</a></li>
+        <li class="nav-text"><a href="#">ABOUT</a></li>
        </ul>
      </nav>
      <div id="nav-icon1" ng-click="nav.open()">
