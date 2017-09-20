@@ -1,4 +1,16 @@
 /*larger screens*/
+@media only screen and (min-width: 2000px) {
+  footer#page-footer div.container {
+    max-width: 2000px !important;
+  }
+
+  img#left-arrow {
+    left: 35rem;
+  }
+  img#right-arrow {
+    right: 35rem;
+  }
+}
 @media only screen and (min-width: 1400px) {
  nav li {
    padding: 0 90px;
