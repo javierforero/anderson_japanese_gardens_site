@@ -120,6 +120,9 @@
   a#view-calendar-button {
     display: none;
   }
+  section#koi-section {
+    background-attachment: initial;
+  }
 }
   @media only screen and (max-width: 400px) {
     div#welcome-japanese h1 {
